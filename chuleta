@@ -1,0 +1,13 @@
+To init sail containers
+
+> sail up -d
+
+To init frontend
+
+> sail npm run watch
+
+
+To create tne UI Authentication
+
+> sail composer require laravel/breeze --dev
+> sail php artisan breeze:install
